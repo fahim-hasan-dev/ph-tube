@@ -76,7 +76,7 @@ const categoryPost = async(categoryId) => {
             div.innerHTML = `
                 <h2 class=" px-2 py-1 rounded-lg bg-slate-900 inline text-white">${dateTime[0]} hrs ${dateTime[1]} min ago</h2>
             `
-            div.classList.add('text-white', 'absolute', 'bottom-5', 'right-[70px]', 'md:right-[40px]','lg:right-[20px]')
+            div.classList.add('text-white', 'absolute', 'bottom-3', 'right-[45px]', 'md:right-[30px]','lg:right-[10px]')
             imgBoxTime.appendChild(div)
         }
         
@@ -156,7 +156,7 @@ function sortView (){
             div.innerHTML = `
                 <h2 class=" px-2 py-1 rounded-lg bg-slate-900 inline text-white">${dateTime[0]} hrs ${dateTime[1]} min ago</h2>
             `
-            div.classList.add('text-white', 'absolute', 'bottom-5', 'right-[70px]', 'md:right-[40px]','lg:right-[20px]')
+            div.classList.add('text-white', 'absolute', 'bottom-3', 'right-[45px]', 'md:right-[30px]','lg:right-[10px]')
             imgBoxTime.appendChild(div)
         }
         
